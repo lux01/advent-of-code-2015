@@ -24,10 +24,17 @@
               (+ floor (first input))
               (inc offset)))))
 
-(defn part1
+(defn- part-1
   [input]
   (find-floor input))
 
-(defn part2
+(defn- part-2
   [input]
   (find-basement input))
+
+(defn day-01
+  [input-file]
+  (let [input (slurp input-file)]
+    (println "Day 1")
+    (println "Final floor: " (part-1 input))
+    (println "Basement entered at position: " (part-2 input))))
