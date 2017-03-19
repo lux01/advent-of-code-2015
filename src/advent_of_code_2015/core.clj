@@ -1,6 +1,7 @@
 (ns advent-of-code-2015.core
   (:use [clojure.pprint :only [pprint]])
-  (:require [advent-of-code-2015.day-01 :as day-01])
+  (:require [advent-of-code-2015.day-01 :as day-01]
+            [advent-of-code-2015.day-02 :as day-02])
   (:gen-class))
 
 (defn unimplemented
@@ -9,17 +10,20 @@
 
 (defn part-1
   [day]
-  (-> {1 day-01/part1}
+  (-> {1 day-01/part1
+       2 day-02/part-1}      
       (get day unimplemented)))
 
 (defn part-2
   [day]
-  (-> {1 day-01/part2}
+  (-> {1 day-01/part2
+       2 day-02/part-2}
       (get day unimplemented)))
 
 (defn input
   [day]
-  (-> {1 "input/day-01.txt"}
+  (-> {1 "input/day-01.txt"
+       2 "input/day-02.txt"}
       (get day)
       (slurp)))
 
