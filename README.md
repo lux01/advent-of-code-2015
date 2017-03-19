@@ -14,7 +14,7 @@ Each day has two parts, the second part of which is available after successfully
 | --- | -------------------------------------------------------------- | ---------------------------------------- |
 |   1 | [Not Quite Lisp][day-01]                                       | [Solution][day-01-soln]                  |
 |   2 | [I Was Told There Would Be No Math][day-02]                    | [Solution][day-02-soln]                  |
-|   3 | [Perfectly Spherical Houses in a Vacuum][day-03]               | Solution pending                         |
+|   3 | [Perfectly Spherical Houses in a Vacuum][day-03]               | [Solution][day-03-soln]                  |
 |   4 | [The Ideal Stocking Stuffer][day-04]                           | Solution pending                         |
 |   5 | [Doesn't He Have Intern-Elvels For This?][day-05]              | Solution pending                         |
 |   6 | [Probably a Fire Hazard][day-06]                               | Solution pending                         |
@@ -67,3 +67,4 @@ Each day has two parts, the second part of which is available after successfully
 
 [day-01-soln]: src/advent_of_code_2015/day_01.clj
 [day-02-soln]: src/advent_of_code_2015/day_02.clj
+[day-03-soln]: src/advent_of_code_2015/day_03.clj
