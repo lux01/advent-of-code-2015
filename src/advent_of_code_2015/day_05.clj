@@ -29,9 +29,36 @@
   (count (filter nice?
                  (clojure.string/split-lines input))))
 
+(defn has-non-overlapping-pair
+  [s]
+  (some identity
+        (for [i (range 0 (count s))
+              j (range (+ i 2) (count s))]
+          (and (= (get s i) (get s j))
+               (= (get s (inc i)) (get s (inc j)))))))
+
+(defn has-repeated-letter-with-gap
+  [s]
+  (some identity
+        (for [i (range 0 (- (count s) 2))
+              :when (= (get s i)
+                       (get s (+ i 2)))]
+          true)))
+
+(defn very-nice?
+  [s]
+  (and (has-non-overlapping-pair s)
+       (has-repeated-letter-with-gap s)))
+
+(defn part-2
+  [input]
+  (count (filter very-nice?
+                 (clojure.string/split-lines input))))
+
 (defn day-05
   [input-file]
   
   (let [input (slurp input-file)]
     (println "Day 5")
-    (println "Number of nice strings: " (part-1 input))))
+    (println "Number of nice strings: " (part-1 input))
+    (println "Number of very nice strings: " (part-2 input))))
