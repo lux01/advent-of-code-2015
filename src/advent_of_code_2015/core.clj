@@ -3,15 +3,12 @@
   (:require [advent-of-code-2015.day-01 :as day-01]
             [advent-of-code-2015.day-02 :as day-02]
             [advent-of-code-2015.day-03 :as day-03]
-            [advent-of-code-2015.day-04 :as day-04])
+            [advent-of-code-2015.day-04 :as day-04]
+            [advent-of-code-2015.day-05 :as day-05]
+            )
   (:gen-class))
 
-(defn unimplemented
-  [& args]
-  "Unimplemented!")
-
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
   
   (let [day (try (Integer/parseInt (nth args 0))
@@ -21,6 +18,7 @@
       2 (day-02/day-02 "input/day-02.txt")
       3 (day-03/day-03 "input/day-03.txt")
       4 (day-04/day-04 "iwrupvqb")
-
+      5 (day-05/day-05 "input/day-05.txt")
+      
       (do (println "Usage: aoc2015 [day]")
           (println "where [day] is a number between 1 and 25 (inclusive).")))))
