@@ -20,7 +20,7 @@ Each day has two parts, the second part of which is available after successfully
 |   6 | [Probably a Fire Hazard][day-06]                               | [Solution][day-06-soln]                  |
 |   7 | [Some Assembly Required][day-07]                               | [Solution][day-07-soln]                  |
 |   8 | [Matchsticks][day-08]                                          | [Solution][day-08-soln]                  |
-|   9 | [All in a Single Night][day-09]                                | Solution pending                         |
+|   9 | [All in a Single Night][day-09]                                | [Solution][day-09-soln]                  |
 |  10 | [Elves Look, Elves Say][day-10]                                | Solution pending                         |
 |  11 | [Corprotae Policy][day-11]                                     | Solution pending                         |
 |  12 | [JSAbacusFramework.io][day-12]                                 | Solution pending                         |
@@ -73,3 +73,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-06-soln]: src/advent_of_code_2015/day_06.clj
 [day-07-soln]: src/advent_of_code_2015/day_07.clj
 [day-08-soln]: src/advent_of_code_2015/day_08.clj
+[day-09-soln]: src/advent_of_code_2015/day_09.clj
