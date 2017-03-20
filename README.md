@@ -22,7 +22,7 @@ Each day has two parts, the second part of which is available after successfully
 |   8 | [Matchsticks][day-08]                                          | [Solution][day-08-soln]                  |
 |   9 | [All in a Single Night][day-09]                                | [Solution][day-09-soln]                  |
 |  10 | [Elves Look, Elves Say][day-10]                                | [Solution][day-10-soln]                  |
-|  11 | [Corprotae Policy][day-11]                                     | Solution pending                         |
+|  11 | [Corporate Policy][day-11]                                     | [Solution][day-11-soln]                  |
 |  12 | [JSAbacusFramework.io][day-12]                                 | Solution pending                         |
 |  13 | [Knights of the Dinner Table][day-13]                          | Solution pending                         |
 |  14 | [Reindeer Olympics][day-14]                                    | Solution pending                         |
@@ -75,3 +75,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-08-soln]: src/advent_of_code_2015/day_08.clj
 [day-09-soln]: src/advent_of_code_2015/day_09.clj
 [day-10-soln]: src/advent_of_code_2015/day_10.clj
+[day-11-soln]: src/advent_of_code_2015/day_11.clj

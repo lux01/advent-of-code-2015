@@ -10,6 +10,7 @@
             [advent-of-code-2015.day-08 :as day-08]
             [advent-of-code-2015.day-09 :as day-09]
             [advent-of-code-2015.day-10 :as day-10]
+            [advent-of-code-2015.day-11 :as day-11]
             )
   (:gen-class))
 
@@ -29,6 +30,7 @@
       8 (day-08/day-08 "input/day-08.txt")
       9 (day-09/day-09 "input/day-09.txt")
       10 (day-10/day-10 "3113322113")
+      11 (day-11/day-11 "hxbxwxba")
       
       (do (println "Usage: aoc2015 [day]")
           (println "where [day] is a number between 1 and 25 (inclusive).")))))
