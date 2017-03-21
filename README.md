@@ -29,7 +29,7 @@ Each day has two parts, the second part of which is available after successfully
 |  15 | [Science for Hungry People][day-15]                            | [Solution][day-15-soln]                  |
 |  16 | [Aunt Sue][day-16]                                             | [Solution][day-16-soln]                  |
 |  17 | [No Such Thing as Too Much][day-17]                            | [Solution][day-17-soln]                  |
-|  18 | [Like a GIF For Your Yard][day-18]                             | Solution pending                         |
+|  18 | [Like a GIF For Your Yard][day-18]                             | [Solution][day-18-soln]                  |
 |  19 | [Medicine for Rudolph][day-19]                                 | Solution pending                         |
 |  20 | [Infinite Elvels and Infinite Houses][day-20]                  | Solution pending                         |
 |  21 | [RPG Simulator 20XX][day-21]                                   | Solution pending                         |
@@ -82,3 +82,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-15-soln]: src/advent_of_code_2015/day_15.clj
 [day-16-soln]: src/advent_of_code_2015/day_16.clj
 [day-17-soln]: src/advent_of_code_2015/day_17.clj
+[day-18-soln]: src/advent_of_code_2015/day_18.clj
