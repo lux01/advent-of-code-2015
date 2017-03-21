@@ -14,6 +14,7 @@
             [advent-of-code-2015.day-12 :as day-12]
             [advent-of-code-2015.day-13 :as day-13]
             [advent-of-code-2015.day-14 :as day-14]
+            [advent-of-code-2015.day-15 :as day-15]
             )
   (:gen-class))
 
@@ -37,5 +38,6 @@
       12 (day-12/day-12 "input/day-12.txt")
       13 (day-13/day-13 "input/day-13.txt")
       14 (day-14/day-14 "input/day-14.txt")
+      15 (day-15/day-15 "input/day-15.txt")
       (do (println "Usage: aoc2015 [day]")
           (println "where [day] is a number between 1 and 25 (inclusive).")))))
