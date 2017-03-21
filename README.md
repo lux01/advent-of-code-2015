@@ -25,7 +25,7 @@ Each day has two parts, the second part of which is available after successfully
 |  11 | [Corporate Policy][day-11]                                     | [Solution][day-11-soln]                  |
 |  12 | [JSAbacusFramework.io][day-12]                                 | [Solution][day-12-soln]                  |
 |  13 | [Knights of the Dinner Table][day-13]                          | [Solution][day-13-soln]                  |
-|  14 | [Reindeer Olympics][day-14]                                    | Solution pending                         |
+|  14 | [Reindeer Olympics][day-14]                                    | [Solution][day-14-soln]                  |
 |  15 | [Science for Hungry People][day-15]                            | Solution pending                         |
 |  16 | [Aunt Sue][day-16]                                             | Solution pending                         |
 |  17 | [No Such Thing as Too Much][day-17]                            | Solution pending                         |
@@ -78,3 +78,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-11-soln]: src/advent_of_code_2015/day_11.clj
 [day-12-soln]: src/advent_of_code_2015/day_12.clj
 [day-13-soln]: src/advent_of_code_2015/day_13.clj
+[day-14-soln]: src/advent_of_code_2015/day_14.clj
