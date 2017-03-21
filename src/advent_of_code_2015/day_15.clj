@@ -36,7 +36,6 @@
                :when (= 500 (cookie-calories a b c d))]
            (cookie-score a b c d))))
 
-
 (defn day-15
   [input]
   (println "Day 15")
