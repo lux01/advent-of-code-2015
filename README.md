@@ -85,3 +85,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-18-soln]: src/clojure/advent_of_code_2015/day_18.clj
 [day-20-soln]: src/clojure/advent_of_code_2015/day_20.clj
 [day-20-soln-java]: src/java/advent_of_code_2015/Day20.java
+[day-21-soln]: src/clojure/advent_of_code_2015/day_21.clj
