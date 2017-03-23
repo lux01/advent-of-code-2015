@@ -1,4 +1,5 @@
 (ns advent-of-code-2015.day-19
+  (:import [advent_of_code_2015 Day19])
   (:gen-class))
 
 (defn find-indices
@@ -79,31 +80,16 @@
                 ))))
     (if @reached-goal (count (reconstruct-path @came-from end)) false)))
 
-(defn levenshtein [str1 str2]
-  "a Clojure levenshtein implementation using transient data structure"
-  (let [n (count str1) m (count str2)]
-    (cond 
-     (= 0 n) m
-     (= 0 m) n
-     :else
-     (let [prev-col (transient (vec (range (inc m)))) col (transient [])] ; initialization for the first column.
-       (dotimes [i n]
-         (assoc! col 0 (inc i)) ; update col[0]
-         (dotimes [j m]
-           (assoc! col (inc j)  ; update col[1..m] 
-                   (min (inc (nth col j))
-                        (inc (nth prev-col (inc j)))
-                        (+ (get prev-col j) (if (= (nth str1 i) (nth str2 j)) 0 1)))))
-         (dotimes [i (count prev-col)] 
-           (assoc! prev-col i (get col i)))) ; 
-       (last (persistent! col)))))) ; last element of last column
-
 (defn part-2
   [{mol :molecule, reps :reps}]
-  (let [dist (constantly 1)
-        heur #(Math/abs (- (count %1) (count %2)))
-        neighbours #(possible-molecules % reps)]
-    (a* "e" mol heur dist neighbours)))
+  (let [reps' (map reverse reps)
+        dist (reify java.util.function.BiFunction
+               (apply [this _ _] 1.0))
+        heur (reify java.util.function.BiFunction
+               (apply [this a b] (double (Math/abs (- (count a) (count b))))))
+        neighbours (reify java.util.function.Function
+                     (apply [this n] (possible-molecules n reps')))]
+    (Day19/aStarSearch mol "e" neighbours heur dist)))
 
 (defn day-19
   [input-file]

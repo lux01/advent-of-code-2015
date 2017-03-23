@@ -1,7 +1,5 @@
 package advent_of_code_2015;
 
-import java.util.ArrayList;
-
 public class Day20 {
     /// Calculates the sum of the divisors of n.
     public static int sigma(int n) {

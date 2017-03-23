@@ -1,5 +1,6 @@
 (ns advent-of-code-2015.day-21
-  (:require [clojure.math.combinatorics :as combi])
+  (:require [clojure.set]
+            [clojure.math.combinatorics :as combi])
   (:gen-class))
 
 (defn transpose
