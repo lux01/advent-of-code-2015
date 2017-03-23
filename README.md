@@ -31,8 +31,8 @@ Each day has two parts, the second part of which is available after successfully
 |  17 | [No Such Thing as Too Much][day-17]                            | [Solution][day-17-soln]                  |
 |  18 | [Like a GIF For Your Yard][day-18]                             | [Solution][day-18-soln]                  |
 |  19 | [Medicine for Rudolph][day-19]                                 | Solution pending                         |
-|  20 | [Infinite Elvels and Infinite Houses][day-20]                  | Solution pending                         |
-|  21 | [RPG Simulator 20XX][day-21]                                   | Solution pending                         |
+|  20 | [Infinite Elvels and Infinite Houses][day-20]                  | Solution [`.clj`][day-20-soln], [`.java`][day-20-soln-java] |
+|  21 | [RPG Simulator 20XX][day-21]                                   | [Solution][day-21-soln]                  |
 |  22 | [Wizard Simulator 20XX][day-22]                                | Solution pending                         |
 |  23 | [Opening the Turing Lock][day-23]                              | Solution pending                         |
 |  24 | [It Hangs in the Balance][day-24]                              | Solution pending                         |
@@ -65,21 +65,23 @@ Each day has two parts, the second part of which is available after successfully
 [day-24]: https://adventofcode.com/2015/day/24
 [day-25]: https://adventofcode.com/2015/day/25
 
-[day-01-soln]: src/advent_of_code_2015/day_01.clj
-[day-02-soln]: src/advent_of_code_2015/day_02.clj
-[day-03-soln]: src/advent_of_code_2015/day_03.clj
-[day-04-soln]: src/advent_of_code_2015/day_04.clj
-[day-05-soln]: src/advent_of_code_2015/day_05.clj
-[day-06-soln]: src/advent_of_code_2015/day_06.clj
-[day-07-soln]: src/advent_of_code_2015/day_07.clj
-[day-08-soln]: src/advent_of_code_2015/day_08.clj
-[day-09-soln]: src/advent_of_code_2015/day_09.clj
-[day-10-soln]: src/advent_of_code_2015/day_10.clj
-[day-11-soln]: src/advent_of_code_2015/day_11.clj
-[day-12-soln]: src/advent_of_code_2015/day_12.clj
-[day-13-soln]: src/advent_of_code_2015/day_13.clj
-[day-14-soln]: src/advent_of_code_2015/day_14.clj
-[day-15-soln]: src/advent_of_code_2015/day_15.clj
-[day-16-soln]: src/advent_of_code_2015/day_16.clj
-[day-17-soln]: src/advent_of_code_2015/day_17.clj
-[day-18-soln]: src/advent_of_code_2015/day_18.clj
+[day-01-soln]: src/clojure/advent_of_code_2015/day_01.clj
+[day-02-soln]: src/clojure/advent_of_code_2015/day_02.clj
+[day-03-soln]: src/clojure/advent_of_code_2015/day_03.clj
+[day-04-soln]: src/clojure/advent_of_code_2015/day_04.clj
+[day-05-soln]: src/clojure/advent_of_code_2015/day_05.clj
+[day-06-soln]: src/clojure/advent_of_code_2015/day_06.clj
+[day-07-soln]: src/clojure/advent_of_code_2015/day_07.clj
+[day-08-soln]: src/clojure/advent_of_code_2015/day_08.clj
+[day-09-soln]: src/clojure/advent_of_code_2015/day_09.clj
+[day-10-soln]: src/clojure/advent_of_code_2015/day_10.clj
+[day-11-soln]: src/clojure/advent_of_code_2015/day_11.clj
+[day-12-soln]: src/clojure/advent_of_code_2015/day_12.clj
+[day-13-soln]: src/clojure/advent_of_code_2015/day_13.clj
+[day-14-soln]: src/clojure/advent_of_code_2015/day_14.clj
+[day-15-soln]: src/clojure/advent_of_code_2015/day_15.clj
+[day-16-soln]: src/clojure/advent_of_code_2015/day_16.clj
+[day-17-soln]: src/clojure/advent_of_code_2015/day_17.clj
+[day-18-soln]: src/clojure/advent_of_code_2015/day_18.clj
+[day-20-soln]: src/clojure/advent_of_code_2015/day_20.clj
+[day-20-soln-java]: src/java/advent_of_code_2015/Day20.java
