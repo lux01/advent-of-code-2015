@@ -8,5 +8,8 @@
                  [org.clojure/data.json "0.2.6"]
                  [pandect "0.6.1"]]
   :main ^:skip-aot advent-of-code-2015.core
+  :source-paths ["src/clojure"]
+  :java-source-paths ["src/java"]
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
+

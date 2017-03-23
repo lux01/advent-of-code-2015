@@ -100,7 +100,7 @@
 
 (defn part-2
   [{mol :molecule, reps :reps}]
-  (let [dist levenshtein
+  (let [dist (constantly 1)
         heur #(Math/abs (- (count %1) (count %2)))
         neighbours #(possible-molecules % reps)]
     (a* "e" mol heur dist neighbours)))
