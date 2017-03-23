@@ -34,7 +34,7 @@ Each day has two parts, the second part of which is available after successfully
 |  20 | [Infinite Elvels and Infinite Houses][day-20]                  | Solution [`.clj`][day-20-soln], [`.java`][day-20-soln-java] |
 |  21 | [RPG Simulator 20XX][day-21]                                   | [Solution][day-21-soln]                  |
 |  22 | [Wizard Simulator 20XX][day-22]                                | Solution pending                         |
-|  23 | [Opening the Turing Lock][day-23]                              | Solution pending                         |
+|  23 | [Opening the Turing Lock][day-23]                              | [Solution][day-23-soln]                  |
 |  24 | [It Hangs in the Balance][day-24]                              | Solution pending                         |
 |  25 | [Let It Snow][day-25]                                          | Solution pending                         |
 
@@ -86,3 +86,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-20-soln]: src/clojure/advent_of_code_2015/day_20.clj
 [day-20-soln-java]: src/java/advent_of_code_2015/Day20.java
 [day-21-soln]: src/clojure/advent_of_code_2015/day_21.clj
+[day-23-soln]: src/clojure/advent_of_code_2015/day_23.clj
