@@ -36,7 +36,7 @@ Each day has two parts, the second part of which is available after successfully
 |  22 | [Wizard Simulator 20XX][day-22]                                | Solution [`.clj`][day-22-soln], [`.java`][day-22-soln-java] |
 |  23 | [Opening the Turing Lock][day-23]                              | [Solution][day-23-soln]                  |
 |  24 | [It Hangs in the Balance][day-24]                              | Solution pending                         |
-|  25 | [Let It Snow][day-25]                                          | Solution pending                         |
+|  25 | [Let It Snow][day-25]                                          | [Solution][day-25-soln]                  |
 
 [aoc2015]: https://adventofcode.com/2015
 [day-01]: https://adventofcode.com/2015/day/1
@@ -89,3 +89,4 @@ Each day has two parts, the second part of which is available after successfully
 [day-22-soln]: src/clojure/advent_of_code_2015/day_22.clj
 [day-22-soln-java]: src/java/advent_of_code_2015/Day22.java
 [day-23-soln]: src/clojure/advent_of_code_2015/day_23.clj
+[day-25-soln]: src/clojure/advent_of_code_2015/day_25.clj
